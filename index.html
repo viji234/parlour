@@ -1,0 +1,537 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parlour Website</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" id="logo"><span>𝕰</span>𝖑𝖎𝖌𝖆𝖓𝖈𝖊</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span><i class="fa-solid fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#book">Book</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#packages">Package</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallary">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Link</a>
+          </li> -->
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Home Section Start -->
+  <div class="home">
+    <div class="content">
+      <h5>Welcome To World</h5>
+      <h1>Give yourself a<span class="changecontent"></span></h1>
+      <p>Pamper yourself and let our skilled hands sculpt beauty into every inch of you</p>
+      <a href="#book">Book Place</a>
+    </div>
+  </div>
+  <!-- Home Section End -->
+
+
+
+
+
+  <!-- Section Book Start -->
+  <section class="book" id="book">
+    <div class="container">
+
+      <div class="main-text">
+        <h1><span>B</span>ook</h1>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <img src="https://charterhall.co.uk/wp-content/uploads/2022/10/Salon-1024x683.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="col-md-6 py-3 py-md-0">
+          <form action="#">
+
+            <input type="text" class="form-control" placeholder="Name" required><br>
+            <input type="text" class="form-control" placeholder="Phone Number" required><br>
+            <input type="date" class="form-control" placeholder="SelectDate" required><br>
+            <textarea class="form-control" rows="5" name="text" placeholder="Enter Your Adress"></textarea>
+            <input type="submit" value="Book Now" class="submit" required>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- Section Book End -->
+
+
+
+
+
+
+
+
+  <!-- Section Packages Start -->
+  <section class="packages" id="packages">
+    <div class="container">
+
+      <div class="main-txt">
+        <h1><span>P</span>ackages</h1>
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img
+              src="data:image/jpeg;base64,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"
+              alt="">
+            <div class="card-body">
+              <h3>Bridal Makeup</h3>
+              <p>a natural and radiant look that enhances the bride's features</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Price: <strong>$500</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="https://lh3.googleusercontent.com/LKhhYgHiT-AicXS4fwOaKv9phpt023vVPMQxOlhdT8m4VeP9QoKdtsYMOh51raz9sltFXDG1oAIgOdqmAKiDnAHW1aWngGq72OOeUv9N=h450-rw" alt="">
+            <div class="card-body">
+              <h3>Haircuts+Highlights</h3>
+              <p> Shampoos, conditions, and dries hair, straightening, curling,altering the hair color</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Price: <strong>$500</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="https://images.herzindagi.info/image/2023/Jan/manicure-main.jpg" alt="">
+            <div class="card-body">
+              <h3>Pedicure +Manicure</h3>
+              <p> work exclusively on the hands and feet to groom fingernails and toenails</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Price: <strong>$500</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+
+
+      <div class="row" style="margin-top: 30px;">
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img
+              src="https://i0.wp.com/post.healthline.com/wp-content/uploads/2019/02/Facial_Spa_Mask-1296x728-Header-1024x575.jpg?w=1155&h=1528"
+              alt="">
+            <div class="card-body">
+              <h3>Face CleanUp</h3>
+              <p>deep cleansing, exfoliating,steaming ,removing whiteheads and blackheads. </p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Price: <strong>$500</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOMRqnhmk_793TMfNCM4CWzzT5bXtkmK-Drg&usqp=CAU" alt="">
+            <div class="card-body">
+              <h3>HairSpa/Roottouchup</h3>
+              <p>color over roots to blend your natural hair with your colored hair</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Price: <strong>$500</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="https://www.swagmee.com/media/wysiwyg/blog/d-tan-1.jpg" alt="">
+            <div class="card-body">
+              <h3>Sun burns+Detan</h3>
+              <p>A skin-brightening and sun-protecting formulation</p>
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star "></i>
+              </div>
+              <h6>Price: <strong>$500</strong></h6>
+              <a href="#book">Book Now</a>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+
+    </div>
+  </section>
+  <!-- Section Packages End -->
+
+
+
+
+
+
+
+  <!-- Section Services Start -->
+  <section class="Service" id="services">
+    <div class="container">
+
+      <div class="main-txt">
+        <h1><span>S</span>ervices</h1>
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="https://www.sreevaidyaayurvedic.com/images/heelpain/h1.png" alt="">
+
+            <!-- <i class="fas fa-" background-image:url(./images/background\ img.jpg);></i> -->
+            <div class="card-body">
+              <h3>Body Massage</h3>
+              <p>The practice of kneading or manipulating a person's muscles and other soft-tissue in order to improve
+                their wellbeing or health.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="https://img.freepik.com/free-photo/beautiful-hair-process-keratin-treatment_23-2149332441.jpg"
+              alt="">
+            <!-- <i class="fas fa-utensils"></i> -->
+            <div class="card-body">
+              <h3>Hair Treatment</h3>
+              <p>managing common hair related problems such as hair fall, dryness, dandruff, frizzy hair, thinning hair,
+                and so on.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img
+              src="https://www.instyle.com/thmb/RTXYbEVNeOSa9iVfOh-EB1SCFjE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/022019-hydrafacial-lead-fa1b5d3d9c16431a8ce6e4d2d81cb95d.jpg"
+              alt="">
+            <!-- <i class="fas fa-bullhorn"></i> -->
+            <div class="card-body">
+              <h3>Hydra Facial</h3>
+              <p>a facial treatment using a patented device to deliver exfoliation, cleansing, extraction, and hydration
+                to the face.</p>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+
+      <div class="row" style="margin-top: 30px;">
+
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvrPKkHmumN05a1xzJHI6a0AD-H5xejjxfQ&usqp=CAU"
+              alt="">
+            <!-- <i class="fas fa-globe-asia"></i> -->
+            <div class="card-body">
+              <h3>Waxing</h3>
+              <p> hair removal to adhere to body hair, and then removing this covering and pulling out the hair from the
+                follicle.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="https://thecoconutmama.com/wp-content/uploads/2023/08/aromatherapy-featured-jpg.webp" alt="">
+            <!-- <i class="fas fa-plane"></i> -->
+            <div class="card-body">
+              <h3>Aromatheropy</h3>
+              <p>the use of essential oils from plants for healing. they can also be massaged into the skin, or rarely,
+                taken by mouth.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+
+          <div class="card">
+            <img src="https://i.pinimg.com/564x/64/54/2d/64542deb540255fa2eab2ccfb11a6820.jpg" alt="">
+            <!-- <i class="fas fa-hiking"></i> -->
+            <div class="card-body">
+              <h3>Manicure&Pedicure</h3>
+              <p>filing and shaping the free edge of nails, pushing and clipping any nonliving tissue , treatments with
+                various liquid</p>
+            </div>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+  </section>
+  <!-- Section Services End -->
+
+
+
+
+  <!-- Section Gallary Start -->
+  <section class="gallary" id="gallary">
+    <div class="container">
+
+      <div class="main-txt">
+        <h1><span>G</span>allary</h1>
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipOtU5V4_h0USVatNaBTzZ_rSCuHkDtVlMS3jywP=w1080-h608-p-no-v0" alt="" height="230px">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img
+              src="https://www.kalkifashion.com/blogs/wp-content/uploads/2023/08/Indian_Wedding_Makeup_Trends_Traditional_to_Contemporary_Styles.jpg"
+              alt="" height="230px">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMot0gDBfdSFIHxd382d63diX93_y1Wc-DfQ&usqp=CAU"
+              alt="" height="230px">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img
+              src="https://stylehub.shoppersstop.com/wp-content/uploads/2018/04/7-Chic-Nail-Trends-To-Follow-This-Summer.jpg"
+              alt="" height="230px">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="https://c.ndtvimg.com/2022-04/vt2v2e7_nail650_625x300_07_April_22.jpg?im=Resize=(1200,757)" alt=""
+              height="230px">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="https://www.majormag.in/wp-content/uploads/2021/06/cute-pink-nail-art-ideas-and-designs-featured-Major-Mag.jpg" alt="" height="230px">
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top: 30px;">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="https://media.weddingz.in/images/1cf319a05c6120bd32bc0407e97977bf/My-project-1-8-1.jpg" alt=""
+              height="230px">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="https://cdn0.weddingwire.in/article/5693/3_2/1280/jpg/103965-bridal-hairstyle-lead-image.webp"
+              alt="" height="230px">
+          </div>
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img
+              src="https://img.weddingbazaar.com/shaadisaga_production/photos/pictures/003/283/296/original/BeFunky-collage_%282%29.jpg?1644520665"
+              alt="" height="230px">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Section Gallary End -->
+
+
+
+
+
+
+
+  <!-- About Start -->
+  <section class="about" id="about">
+    <div class="container">
+
+      <div class="main-txt">
+        <h1>About <span>Us</span></h1>
+      </div>
+
+      <div class="row" style="margin-top: 50px;">
+
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <img src="https://media.licdn.com/dms/image/D5612AQEQM5bGCcwnhQ/article-cover_image-shrink_720_1280/0/1682678540197?e=1711584000&v=beta&t=GxP3FxC5RuE1Ci3llohuHoFMutRviDQFlB0TjS9bdrw" alt="">
+          </div>
+        </div>
+
+        <div class="col-md-6 py-3 py-md-0">
+          <h2>How Salon Work</h2>
+          <p>Elegance salon is an establishment that offers a variety of cosmetic treatments and cosmetic services for
+            women. we may offer a variety of services including professional hair cutting and styling, manicures and
+            pedicures, and often cosmetics, makeup and makeovers.</p>
+          <button id="about-btn">Read More...</button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- About End -->
+
+
+
+
+  <!-- Footer Start -->
+  <footer id="footer">
+    <h1><span>𝕰</span>𝖑𝖎𝖌𝖆𝖓𝖈𝖊</h1>
+    <p>Where we love to Exceed your expectations.</p>
+    <div class="social-links">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+    </div>
+    <div class="credit">
+      <p>Designed By 🅥🅘🅙🅐🅨🅐</p>
+    </div>
+    <div class="copyright">
+      <p>&copy;Copyright vijaya . All Rights Reserved</p>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
